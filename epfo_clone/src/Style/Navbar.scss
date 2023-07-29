@@ -1,0 +1,18 @@
+.nav{
+    background-color: grey;
+    width: 3%;
+    height: 100vh;
+    right: 0;
+    button: 0;
+
+    position: fixed;
+
+    .icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 15px; 
+        padding: 4px;
+    }
+}
