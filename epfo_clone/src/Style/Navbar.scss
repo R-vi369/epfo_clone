@@ -1,9 +1,8 @@
 .nav{
-    background-color: grey;
-    width: 3%;
-    height: 63vh;
+    background-color:#edeff5;
+    height: 65vh;
     right: 34px;
-    bottom: 0;
+    bottom: 1px;
     position: fixed;
 
     .icons{
@@ -14,5 +13,11 @@
         text-align: center;
         margin: 0 15px; 
         padding:1px  5px;
+        
+
+            img{
+                width: 26px;
+            }
+        
     }
 }
