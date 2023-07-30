@@ -4,6 +4,8 @@ import ArrowDropDownRoundedIcon from "@mui/icons-material/ArrowDropDownRounded";
 
 import ArrowDropUpRoundedIcon from "@mui/icons-material/ArrowDropUpRounded";
 import Navbar from "./Navbar";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 const Hero = () => {
   return (
     <>
@@ -40,21 +42,19 @@ const Hero = () => {
                 for International Workers
               </a>
             </li>
-            
+
             <li>
               <a href="#" className="dropdown_item">
                 for Pensioners - Locate Jeevan Pramaan Centre
               </a>
             </li>
 
-            
             <li>
               <a href="#" className="dropdown_item">
                 Locate an EPFO office
               </a>
             </li>
 
-            
             <li>
               <a href="#" className="dropdown_item">
                 Who's Who
@@ -67,18 +67,30 @@ const Hero = () => {
             Exempted Estt
             <ArrowDropDownRoundedIcon />
           </a>
-       <ul className="dropdown_menu">
-        <li><a href="#" className="">List of Exempted Establishment</a></li>
-        <li><a href="#" className="">Perfor. Evaluation of Exempted Estt</a></li>
+          <ul className="dropdown_menu">
+            <li>
+              <a href="#" className="">
+                List of Exempted Establishment
+              </a>
+            </li>
+            <li>
+              <a href="#" className="">
+                Perfor. Evaluation of Exempted Estt
+              </a>
+            </li>
 
-        <li><a href="#" className="">Cancellation/Grant Notification</a></li>
+            <li>
+              <a href="#" className="">
+                Cancellation/Grant Notification
+              </a>
+            </li>
 
-        <li><a href="#" className="">Exempted Return Manual</a></li>
-       </ul>
-
-
-
-
+            <li>
+              <a href="#" className="">
+                Exempted Return Manual
+              </a>
+            </li>
+          </ul>
         </div>
 
         <div className="epfo_Corner">
@@ -86,12 +98,90 @@ const Hero = () => {
             EPFO Corner
             <ArrowDropDownRoundedIcon />
           </a>
+          <ul className="dropdown_menu">
+            <li>
+              <a href="#" className="">
+                Chief Executive Officer
+              </a>
+            </li>
+            <li>
+              <a href="#" className="">
+                Central Govt. Industrial Tribunal
+              </a>
+            </li>
+
+            <li>
+              <a href="#" className="">
+                EPF Traning Institues
+              </a>
+            </li>
+
+            <li>
+              <a href="#" className="">
+                MIS
+              </a>
+            </li>
+            <li>
+              <a href="#" className="">
+                nrakaas
+              </a>
+            </li>
+            <li>
+              <a href="#" className="">
+                For Office Use
+              </a>
+            </li>
+          </ul>
         </div>
         <div className="miscellaneous">
           <a href="">
             Miscellaneous
             <ArrowDropDownRoundedIcon />
           </a>
+          <ul className="dropdown_menu">
+            <li>
+              <a href="#" className="">
+                Ease of Doing Business
+              </a>
+            </li>
+            <li>
+              <a href="#" className="">
+                Downloads              </a>
+            </li>
+
+            <li>
+              <a href="#" className="">
+              Recruitments              </a>
+            </li>
+
+            <li>
+              <a href="#" className="">
+                Tenders/Auction
+              </a>
+            </li>
+            <li>
+              <a href="#" className="">
+                Citizen's Charter
+              </a>
+            </li>
+            <li>
+              <a href="#" className="">
+                RTI Act
+              </a>
+            </li>
+            
+            <li>
+              <a href="#" className="">
+                Integrity Pledge - Central Vigilance Commission
+              </a>
+            </li>
+            
+            <li>
+              <a href="#" className="">
+                Whistle Blower Policy - CVC
+              </a>
+            </li>
+          </ul>
         </div>
 
         <div className="Directory">
@@ -111,6 +201,42 @@ const Hero = () => {
             Downloads
             <ArrowDropDownRoundedIcon />
           </a>
+          <ul className="dropdown_menu">
+            <li>
+              <a href="#" className="">
+               videos
+              </a>
+            </li>
+            <li>
+              <a href="#" className="">
+                 Creatives
+              </a>
+            </li>
+
+            <li>
+              <a href="#" className="">
+                Acts & Manuals
+              </a>
+            </li>
+
+            <li>
+              <a href="#" className="">
+                Annual Report
+              </a>
+            </li>
+            <li>
+              <a href="#" className="">
+                Study Report
+              </a>
+            </li>
+            <li>
+              <a href="#" className="">
+                Annual Accounts Reports              </a>
+            </li>
+          </ul>
+
+
+
         </div>
         <div className="blank">
           <a href="" style={{ color: " #27408b", height: "42px" }}>
@@ -121,10 +247,34 @@ const Hero = () => {
 
       <div className="stay_box">
         <div className="stay_alert">
-          <img
-            src="https://www.epfindia.gov.in/images/Fraud_Alert_en.jpeg"
-            alt=""
-          />
+          <img src="https://www.epfindia.gov.in/images/Fraud_Alert_en.jpeg" alt="" />
+            {/* <Carousel autoPlay="true">
+                <div className="stay_alert_img">
+                    <img src="https://www.epfindia.gov.in/images/Fraud_Alert_en.jpeg" />
+                  
+                </div>
+                <div className="stay_alert_img">
+                    <img src="https://www.epfindia.gov.in/images/PLot-Banner-ss.jpg" />
+                    
+                </div>
+                <div className="stay_alert_img">
+                    <img src="https://www.epfindia.gov.in/images/construction-Banner.jpg" />
+                    
+                </div>
+
+                <div className="stay_alert_img">
+                    <img src=" https://www.epfindia.gov.in/images/Migration_in_India.jpeg" />
+                    
+                </div>
+
+                <div className="stay_alert_img">
+                    <img src="  https://www.epfindia.gov.in/images/Jeevan_Pramaan_en.jpeg" />
+                    
+                </div>
+
+               
+               
+            </Carousel> */}
         </div>
 
         <div className="box_8">

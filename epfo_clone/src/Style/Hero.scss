@@ -25,28 +25,19 @@
     
   }
 
-  .services{
+  .services , .exempted_Estt , .epfo_Corner, .miscellaneous , .Downloads{
    
    
     &:hover{
      
       .dropdown_menu{
+        
        position: absolute;
         display: block;
       }
     }
   }
-  .exempted_Estt{
-   
-   
-    &:hover{
-     
-      .dropdown_menu{
-       position: absolute;
-        display: block;
-      }
-    }
-  }
+ 
 }
 
 // stay and box
@@ -57,10 +48,13 @@
 
 
   .stay_alert {
-    img {
-      width: 660px;
-      height: 30vh;
-    }
+    
+
+      img {
+        width: 660px;
+        height: 30vh;
+      }
+   
   }
   .box_8 {
     // display: flex;
@@ -97,6 +91,10 @@
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
+  &:hover{
+    background-color: 
+    #596999;
+  }
   
    }
   }
