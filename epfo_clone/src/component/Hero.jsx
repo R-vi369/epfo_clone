@@ -3,7 +3,7 @@ import "../Style/Hero.scss";
 import ArrowDropDownRoundedIcon from "@mui/icons-material/ArrowDropDownRounded";
 
 import ArrowDropUpRoundedIcon from "@mui/icons-material/ArrowDropUpRounded";
-import Navbar from './Navbar'
+import Navbar from "./Navbar";
 const Hero = () => {
   return (
     <>
@@ -24,6 +24,23 @@ const Hero = () => {
             Services
             <ArrowDropDownRoundedIcon />
           </a>
+          <ul className="dropdown_menu">
+            <li>
+              <a href="#" className="dropdown_item">
+                link
+              </a>
+            </li>
+            <li>
+              <a href="#" className="dropdown_item">
+                link
+              </a>
+            </li>
+            <li>
+              <a href="#" className="dropdown_item">
+                link
+              </a>
+            </li>
+          </ul>
         </div>
         <div className="exempted_Estt">
           <a href="">
@@ -106,10 +123,7 @@ const Hero = () => {
         </div>
       </div>
 
-
-
-
-       <Navbar/>
+      <Navbar />
     </>
   );
 };
