@@ -36,6 +36,17 @@
       }
     }
   }
+  .exempted_Estt{
+   
+   
+    &:hover{
+     
+      .dropdown_menu{
+       position: absolute;
+        display: block;
+      }
+    }
+  }
 }
 
 // stay and box
@@ -76,7 +87,7 @@
 
 
 .dropdown_menu{
-   width: 300%;
+   width: 28%;
    position: relative;
    top: 250px;
   li{
@@ -84,6 +95,8 @@
    
    a{
   text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
   
    }
   }

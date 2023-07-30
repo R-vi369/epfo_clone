@@ -27,17 +27,37 @@ const Hero = () => {
           <ul className="dropdown_menu">
             <li>
               <a href="#" className="dropdown_item">
-                link
+                For Employers
               </a>
             </li>
             <li>
               <a href="#" className="dropdown_item">
-                link
+                For Employess
               </a>
             </li>
             <li>
               <a href="#" className="dropdown_item">
-                link
+                for International Workers
+              </a>
+            </li>
+            
+            <li>
+              <a href="#" className="dropdown_item">
+                for Pensioners - Locate Jeevan Pramaan Centre
+              </a>
+            </li>
+
+            
+            <li>
+              <a href="#" className="dropdown_item">
+                Locate an EPFO office
+              </a>
+            </li>
+
+            
+            <li>
+              <a href="#" className="dropdown_item">
+                Who's Who
               </a>
             </li>
           </ul>
@@ -47,6 +67,18 @@ const Hero = () => {
             Exempted Estt
             <ArrowDropDownRoundedIcon />
           </a>
+       <ul className="dropdown_menu">
+        <li><a href="#" className="">List of Exempted Establishment</a></li>
+        <li><a href="#" className="">Perfor. Evaluation of Exempted Estt</a></li>
+
+        <li><a href="#" className="">Cancellation/Grant Notification</a></li>
+
+        <li><a href="#" className="">Exempted Return Manual</a></li>
+       </ul>
+
+
+
+
         </div>
 
         <div className="epfo_Corner">
