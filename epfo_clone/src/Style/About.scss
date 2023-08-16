@@ -1,6 +1,44 @@
 
+.another {
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   margin: auto;
+   width: 80%;
+   height: 3vh;
+   overflow: hidden;
+   position: relative;
+   top: 43%;
+   .another-text {
+      font-size: 1rem; 
+      font-weight: 700;
+      color: red;
+      white-space: nowrap; 
+      animation: slide 70s linear infinite; 
+      &:hover{
+         animation: none;
+      }
+      }
+}
+ 
+ /* Define the animation keyframes */
+ @keyframes slide {
+   from {
+     transform: translateX(100%); /* Start from the right */
+   }
+   to {
+     transform: translateX(-100%); /* Slide to the left */
+   }
+ }
+
+ 
+ 
+ 
+ 
+ 
 .about{
     width: 100%;
+    margin-top: 1rem;
     height: 90vh;
    display: flex;
    justify-content: center;

@@ -3,9 +3,10 @@ import "../Style/Hero.scss";
 import ArrowDropDownRoundedIcon from "@mui/icons-material/ArrowDropDownRounded";
 
 import ArrowDropUpRoundedIcon from "@mui/icons-material/ArrowDropUpRounded";
-import Navbar from "./Navbar";
+import Navbar from "./SocialMedia";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+// import { Carousel } from 'react-responsive-carousel';
+import SocialMedia from "./SocialMedia";
 const Hero = () => {
   return (
     <>
@@ -305,7 +306,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <Navbar />
+      <SocialMedia />
     </>
   );
 };

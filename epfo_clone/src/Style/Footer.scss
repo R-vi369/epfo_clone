@@ -1,12 +1,21 @@
 .portal{
     display: flex;
      justify-content: center;
-     gap: 106px;
+     margin-top: 2.3rem;
+     margin-left: 7.7rem;
+     margin-right: 7.5rem;
 
      button{
-        width: 20 rem;
-        padding: 16px 10px;
-        font-size: 12px;
+        width: 38%;
+        height: 8.8vh;
+        padding: 0.3rem;
+        font-size: 0.5rem;
+        font-size: 1rem;
+        margin: 0.4rem;
+        color: white;
+        border: none;
+        cursor: pointer;
+
         
      }
      
@@ -15,7 +24,20 @@
 
 .e_shram{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 8.1rem;
+    margin-right: 7.6rem;
+
+    .e_shram_portal{
+      
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      color: blue;
+      img{
+         width: 25%;
+      }
+    }
     
  }
 

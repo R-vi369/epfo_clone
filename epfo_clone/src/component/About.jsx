@@ -4,6 +4,12 @@ import earth from "../assets/earth.png";
 const About = () => {
   return (
     <>
+      <div className="another">
+        <div className="another-text">
+        PREVENT FRAUD!! Never share your UAN/Password/PAN/Aadhaar/Bank Account details/OTP or any other personal or financial details with anyone. Beware of such fake calls/messages and report to Local Police/Cyber Crime branch. EPFO or its staff never asks for these details over Messages, Calls, WhatsApp, Social Media. STAY ALERT, STAY VIGILANT. 
+        </div>
+      </div>
+
       <div className="about">
         <div className="about_left">
           <div className="about_left_1">

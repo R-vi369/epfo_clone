@@ -13,7 +13,7 @@ import insta from '../assets/insta.png'
 import bird from '../assets/bird.png'
 import public1 from '../assets/public1.png'
 import '../Style/Navbar.scss'
-const Navbar = () => {
+const SocialMedia = () => {
   return (
     <>
       <div className="nav">
@@ -63,4 +63,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default SocialMedia;

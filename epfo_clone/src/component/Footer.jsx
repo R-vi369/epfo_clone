@@ -6,27 +6,27 @@ import FooterBottom from './FooterBottom'
 const Footer = () => {
   return (
     <>
-     <div className="portal">
-       <button>Employers Portal</button>
-       <button>Pradhan Mantri Rojgar Protsahan Yogana</button>
-       <button>mGovernance</button>
-       <button>EPFO's Press Relase</button>
-       <button>Photo Gallery</button>
+      <div className="portal">
+        <button style={{"background":"#8b6fa7"}}>Employers Portal</button>
+        <button style={{"background":"#07a1a7 "}}>Pradhan Mantri Rojgar Protsahan Yogana</button>
+        <button style={{"background":"#668c66 "}}>mGovernance</button>
+        <button style={{"background":"#a46971 "}}>EPFO's Press Relase</button>
+        <button style={{"background":"#b69c40"}}>Photo Gallery</button>
 
-     </div>
+      </div>
 
 
-     <div className="e_shram">
+      <div className="e_shram">
         <div className="e_shram_portal">
-            <img src={eshram} alt="" />
-            <p>e-Shram Portal</p>
+          <img src={eshram} alt="" />
+          <p>e-Shram Portal</p>
         </div>
-         <div className="e_shram2">
-            <img src={eshram2} alt="" />
-         </div>
-     </div>
-    
-    <FooterBottom/>
+        <div className="e_shram2">
+          <img src={eshram2} alt="" />
+        </div>
+      </div>
+
+      <FooterBottom />
     </>
   )
 }

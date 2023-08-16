@@ -1,115 +1,130 @@
-.header_top{
+.header_top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 5vh;
+  background-color: red;
+  align-items: center;
+  cursor: pointer;
+
+  .header_left {
+    color: #fde58c;
+    padding-left: 8px;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 5vh;
-    background-color: red;
     align-items: center;
-    cursor: pointer;
-    
-    
-    .header_left{
-        color: #fde58c;
-        padding-left: 8px;
-        display: flex;
-        align-items: center;
-        animation: blinking-animation 1s infinite;
-        font-weight: 700;
-  
-    }
+    animation: blinking-animation 1s infinite;
+    font-weight: 700;
+  }
 
-    .header_right{
-        display: flex;
+  .header_right {
+    display: flex;
+    color: white;
+    .header_right_text {
+      display: flex;
+      padding: 0 52px;
+      word-spacing: 1px;
+      font-size: 0.9rem;
+      // justify-content: center;
+      align-items: center;
+      p {
+        padding-left: 21px;
+      }
+    }
+    .header_right_other_lang {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 50px 0 0;
+      p {
+        padding: 10px;
+      }
+      .header_right_other_active {
+        background-color: white;
+        color: black;
+      }
+
+      .lang {
+        border: 3px solid #fde58c;
+        background-color: red;
         color: white;
-        .header_right_text{
-            display: flex;
-            padding: 0 52px;
-            word-spacing: 1px;
-            font-size: 0.9rem;
-            // justify-content: center;
-            align-items: center;
-            p{
-                padding-left: 21px;
-            }
-        }
-        .header_right_other_lang{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 0   50px 0 0 ;
-            p{
-                padding: 10px;
-            }
-            .header_right_other_active{
-                background-color: white;
-                color: black ;
-               
-            }
-
-            .lang{
-                border: 3px solid   #fde58c;
-                background-color: red;
-                color: white;
-                padding: 4px;
-                font-size: 14px;
-                font-weight: 600;
-                margin: 1.2px;
-            }
-        }
-
+        padding: 4px;
+        font-size: 14px;
+        font-weight: 600;
+        margin: 1.2px;
+      }
     }
+  }
 }
 
 @keyframes blinking-animation {
-    0% {
-      visibility: hidden;
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+//  epfo
+
+.epfo_container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+
+  .epfo {
+    display: flex;
+    align-items: center;
+
+    .epfo_logo {
+      img {
+        width: 98px;
+      }
     }
-    50% {
-      visibility: hidden;
-    }
-    100% {
-      visibility: visible;
+    .epfo_text {
+      h1 {
+        color: red;
+      }
+      p {
+        font-size: 18px;
+      }
     }
   }
-  
-
-
-
-        //  epfo
-
-
-  .epfo_container{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 10px;
- 
-       .epfo{
-        display: flex;
-        align-items: center;
-
-        .epfo_logo{
-            img{
-
-                width: 98px;
-            }
-        }
-        .epfo_text{
-            
-          h1{
-            color: red;
-          }
-          p{
-            font-size: 18px;
-
-          }
-        }
-       } 
-  .another_img{
- 
-      .another_img_2{
-        margin-bottom: 33px;
-        margin-left: 7px;
-         width: 95px;
-        }
+  .another_img {
+    .another_img_2 {
+      margin-bottom: 33px;
+      margin-left: 7px;
+      width: 95px;
     }
-    }
+  }
+}
+
+.sliding-container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  align-items: end;
+ position: relative;
+ top: 45px;
+  .sliding-text {
+    font-size: 1rem;
+    white-space: nowrap;
+    animation: slide 70s linear infinite;
+    color: red;
+    font-weight: 700;
+  }
+}
+
+/* Define the animation keyframes */
+@keyframes slide {
+  from {
+    transform: translateX(100%); /* Start from the right */
+  }
+  to {
+    transform: translateX(-100%); /* Slide to the left */
+  }
+}
