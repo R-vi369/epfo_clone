@@ -9,11 +9,6 @@
         font-size: 12px;
         
      }
-
-
-
-
-
      
 
 }
@@ -21,4 +16,45 @@
 .e_shram{
     display: flex;
     justify-content: space-around;
+    
+ }
+
+ .footerbottom{
+   width: 100%;
+   height: 6.7vh;
+   background-color: #e8e8e8;
+   display: flex;
+   // justify-content: start;
+   padding-left: 27rem;
+   align-items: center;
+   gap: 9px;
+   .hr{
+      height: 14px;
+      width: 3px;
+      background-color: red;
+      color: red;
+      font-weight: 760;
+      
+   }
+   p{
+      font-size: 0.8rem;
+      font-weight: 540;
+      
+      &:hover{
+         cursor: pointer;
+         color: red;
+      }
+   }
+ 
+ }
+
+ .bottom-end{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 4.7vh;
+font-size: 0.8rem;
+   background-color: red;
+   color: white;
+
  }

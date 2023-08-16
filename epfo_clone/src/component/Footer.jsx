@@ -2,7 +2,7 @@ import React from 'react'
 import '../Style/Footer.scss'
 import eshram from '../assets/eshram.png'
 import eshram2 from '../assets/eshram2.png'
-
+import FooterBottom from './FooterBottom'
 const Footer = () => {
   return (
     <>
@@ -26,7 +26,7 @@ const Footer = () => {
          </div>
      </div>
     
-    
+    <FooterBottom/>
     </>
   )
 }
