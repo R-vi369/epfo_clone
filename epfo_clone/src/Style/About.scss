@@ -1,102 +1,172 @@
-
 .another {
-   display: flex;
-   justify-content: center;
-   align-items: center; 
-   margin: auto;
-   width: 80%;
-   height: 3vh;
-   overflow: hidden;
-   position: relative;
-   top: 43%;
-   .another-text {
-      font-size: 1rem; 
-      font-weight: 700;
-      color: red;
-      white-space: nowrap; 
-      animation: slide 70s linear infinite; 
-      &:hover{
-         animation: none;
-      }
-      }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  height: 3vh;
+  overflow: hidden;
+  position: relative;
+  top: 43%;
+  .another-text {
+    font-size: 1rem;
+    font-weight: 700;
+    color: red;
+    white-space: nowrap;
+    animation: slide 70s linear infinite;
+    &:hover {
+      animation: none;
+    }
+  }
 }
- 
- /* Define the animation keyframes */
- @keyframes slide {
-   from {
-     transform: translateX(100%); /* Start from the right */
-   }
-   to {
-     transform: translateX(-100%); /* Slide to the left */
-   }
- }
 
- 
- 
- 
- 
- 
-.about{
-    width: 100%;
-    margin-top: 1rem;
-    height: 90vh;
-   display: flex;
-   justify-content: center;
-   gap: 0.3rem;
- 
+/* Define the animation keyframes */
+@keyframes slide {
+  from {
+    transform: translateX(100%); /* Start from the right */
+  }
+  to {
+    transform: translateX(-100%); /* Slide to the left */
+  }
+}
 
+.about {
+  width: 100%;
+  margin-top: 1rem;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
 
-   .about_left{
+  .about_left {
     display: flex;
     width: 40%;
     height: 100vh;
     flex-direction: column;
     gap: 1rem;
-    
-    .about_left_1{
-        
-        border: 1px solid grey;
-        border-radius: 3px ;
-        box-shadow: 1px 1px 1px 1px grey;
-        background-color: white;
-        width: 100%;
-        height: 33vh;
-        .about_left_1_nav{
-         img{
-            padding-left: 10px;
-            width: 70%;
-         }
-           display: flex;
+
+    .about_left_1 {
+      border: 1px solid grey;
+      border-radius: 3px;
+      box-shadow: 1px 1px 1px 1px grey;
+      background-color: white;
+      width: 100%;
+      height: 37vh;
+      .about_left_1_nav {
+        img {
+          padding-left: 10px;
+          width: 70%;
+        }
+        display: flex;
         width: 100%;
         height: 6vh;
         background-color: gainsboro;
-        gap: .3rem;
-        justify-content:left;
+        gap: 0.3rem;
+        justify-content: left;
         align-items: center;
-         h2{
+        h2 {
+          font-size: 1.4rem;
+          font-weight: 600;
+          color: blue;
+        }
+      }
+      .about_left_1_text {
+        padding-top: 0.4rem;
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        gap: 0.4rem;
+        padding-left: 1rem;
+        p {
+          font-size: 0.9rem;
+          font-weight: 570;
+          cursor: pointer;
+          span {
+            font-weight: 800;
+          }
+        }
+        .wrap {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+    .about_lefttt {
+      .whats{
+         display: flex;
+         align-items: center;
+         padding-left: 0.5rem;
+         width: 100%;
+         background-color:#dcdcdc ;
+         height: 5vh;
+         color: blue;
+         box-shadow: 1px 1px 0.6px 0.5px grey;
+         p{
+
             font-size: 1.4rem;
             font-weight: 600;
+         }
+      }
+    
+     .about_left_2 {
+      width: 100%;
+      height: 48vh;
+     overflow: scroll;
+     border: 1px solid black;
+     box-shadow: 1px 1px 0.6px 0.5px grey;
+     display: flex;
+     flex-direction: column;
+     border-bottom: none;
+     gap: 1rem;
+          overflow: scroll;
+        .wrap {
+          display: flex;
+          p {
+            font-size: 1rem;
+            font-weight: 400;
+            cursor: pointer;
+          }
+          span {
+            color: blue;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+
+  .about_right {
+    width: 40%;
+    height: 90vh;
+    border: 1px solid black;
+    overflow: scroll;
+   //  gap: 4rem;
+   
+    .about_us{
+        color: blue;
+        align-items: center;
+        display: flex;
+        font-size: 1.5rem;
+        padding-left: 0.2rem;
+        font-weight: 600;
+        width: 100%;
+        height: 6vh;
+        background-color:#dcdcdc;
+        
+    }
+
+    .wrapper{
+        
+      display: flex;
+      // align-items: center;
+      gap: 0.6rem;
+      p{
+         font-size: 1.1rem;
+         padding:0 0 5px 0;
+         span{
             color: blue;
          }
-       }
-
-
-
-
-
+      }
     }
-    .about_left_2{
-      overflow: scroll;
-        width: 100%;
-        height: 54vh;
-       border: 1px solid black;
-    }
-   }
-
-   .about_right{
-    width: 40%;
-        height:90vh;
-        border: 1px solid black;
-        overflow: scroll;
-   }
+  }
 }

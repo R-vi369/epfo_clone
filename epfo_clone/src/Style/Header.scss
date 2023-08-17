@@ -1,3 +1,27 @@
+// @media (max-width: '780px') {
+//   .header{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+//   .header_left{
+    
+//     font-size: 0.3rem;
+   
+//   }
+//   .header_right{
+//     .header_right_text{
+//  p{
+
+//    font-size: 0.3rem;
+//   }
+//     }
+//   }
+//   .epfo_container{
+//     font-size: 0.3rem;
+//   }
+// }
+
 .header_top {
   display: flex;
   justify-content: space-between;
@@ -128,3 +152,5 @@
     transform: translateX(-100%); /* Slide to the left */
   }
 }
+
+
