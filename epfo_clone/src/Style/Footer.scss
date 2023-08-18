@@ -72,10 +72,16 @@
   color: white;
 }
 
-// @media (max-width: 780px) {
+@media (max-width: 780px) {
    
-//   .bottom-end {
-//     font-size: 0.4rem;
-//     font-weight: 600;
-//   }
-// }
+  .bottom-end {
+    display: flex;
+    justify-content: center;
+    gap: 1.4rem;
+    p{
+       
+      font-size: 0.3rem;
+      font-weight: 600;
+    }
+  }
+}

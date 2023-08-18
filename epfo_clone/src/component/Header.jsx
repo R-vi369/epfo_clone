@@ -16,7 +16,10 @@ const Header = () => {
             <div className="email">
               <EmailIcon />
             </div>
+           <p>
+
             Help Desk/TollFree Number &#40;1800118005 &#41;
+           </p>
             <div className="telephone">
               <CallEndIcon />
             </div>
@@ -24,8 +27,16 @@ const Header = () => {
 
           <div className="header_right">
             <div className="header_right_text">
-              <p>Screen Reader Access</p>
-              <p>Skip to main content</p>
+              <p>
+                <span>Screen</span> <span>Reader</span> <span>Access</span>
+                
+                </p>
+              <p>
+                <span>Skip </span> 
+                <span>to</span>
+                <span>main </span>
+                <span>content</span>
+                </p>
             </div>
             <div className="header_right_other_lang">
               <p>
