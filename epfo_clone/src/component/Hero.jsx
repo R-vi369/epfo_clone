@@ -306,7 +306,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <SocialMedia />
+      {/* <SocialMedia /> */}
     </>
   );
 };
