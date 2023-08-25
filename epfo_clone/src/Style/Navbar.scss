@@ -18,6 +18,14 @@
             img{
                 width: 26px;
             }
+            @media (max-width: 780px) {
+
+                 
+                img{
+                    width: 20px;
+                }
+            }
         
     }
 }
+
