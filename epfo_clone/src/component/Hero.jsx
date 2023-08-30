@@ -249,33 +249,7 @@ const Hero = () => {
       <div className="stay_box">
         <div className="stay_alert">
           <img src="https://www.epfindia.gov.in/images/Fraud_Alert_en.jpeg" alt="" />
-            {/* <Carousel autoPlay="true">
-                <div className="stay_alert_img">
-                    <img src="https://www.epfindia.gov.in/images/Fraud_Alert_en.jpeg" />
-                  
-                </div>
-                <div className="stay_alert_img">
-                    <img src="https://www.epfindia.gov.in/images/PLot-Banner-ss.jpg" />
-                    
-                </div>
-                <div className="stay_alert_img">
-                    <img src="https://www.epfindia.gov.in/images/construction-Banner.jpg" />
-                    
-                </div>
-
-                <div className="stay_alert_img">
-                    <img src=" https://www.epfindia.gov.in/images/Migration_in_India.jpeg" />
-                    
-                </div>
-
-                <div className="stay_alert_img">
-                    <img src="  https://www.epfindia.gov.in/images/Jeevan_Pramaan_en.jpeg" />
-                    
-                </div>
-
-               
-               
-            </Carousel> */}
+           
         </div>
 
         <div className="box_8">

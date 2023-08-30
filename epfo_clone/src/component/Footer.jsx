@@ -7,12 +7,15 @@ const Footer = () => {
   return (
     <>
       <div className="portal">
+        <div className="portal_box">
+
         <button style={{"background":"#8b6fa7"}}>Employers Portal</button>
         <button style={{"background":"#07a1a7 "}}>Pradhan Mantri Rojgar Protsahan Yogana</button>
         <button style={{"background":"#668c66 "}}>mGovernance</button>
         <button style={{"background":"#a46971 "}}>EPFO's Press Relase</button>
         <button style={{"background":"#b69c40"}}>Photo Gallery</button>
 
+        </div>
       </div>
 
 

@@ -1,4 +1,5 @@
 .hero {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +14,7 @@
     border: 2px solide #27408b;
     background-color: rgb(39, 64, 139);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.1vw;
     list-style: none;
     text-decoration: none;
     color: white;
