@@ -1,9 +1,4 @@
-@media (max-width: '786px') {
-   .header_top{
-    justify-content: center;
-    height: 10vh;
-   }
-}
+
 
 .header_top {
   display: flex;
@@ -21,13 +16,9 @@
     align-items: center;
     animation: blinking-animation 1s infinite;
     font-weight: 700;
-    .email, .telephone{
-      @media (max-width:"786px") {
-         width: 23px;
-      }
-    }
+   
     p{
-      font-size: 1.3vw;
+      font-size: 1vw;
     }
   }
 
@@ -62,9 +53,7 @@
       }
 
       .lang {
-        @media (max-width: "876px") {
-          font-size: 1.6vw;
-        }
+      
         border: 3px solid #fde58c;
         background-color: red;
         color: white;
@@ -102,9 +91,7 @@
 
     .epfo_logo {
       img {
-        @media (max-width: "786px") {
-          width: 39px;
-        }
+       
         width: 6.6rem;
       }
     }
@@ -156,3 +143,26 @@
 }
 
 
+@media (max-width: '786px') {
+  .header_top{
+   justify-content: center;
+   height: 10vh;
+
+   .header_left{
+    p{
+      font-size: 0.4rem;
+    }
+   }
+   .header_right_other_lang{
+    p{
+      font-size: 1.2rem;
+    }
+    .header_right_text{
+      p{
+        font-size: 2rem;
+      }
+    }
+   }
+  }
+
+}
