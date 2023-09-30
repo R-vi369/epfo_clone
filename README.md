@@ -11,10 +11,9 @@ This repository contains a clone of the Employees' Provident Fund Organization (
 
 ## Demo
 
-You can access a live demo of this EPFO Clone React App at [https://your-demo-url.com](https://your-demo-url.com). This demo showcases the main features and functionalities of the application.
+You can access a live demo of this EPFO Clone React App at [https://your-demo-.cpmmmmmm]. This demo showcases the main features and functionalities of the application.
 
-![EPFO Clone Demo]
-https://github.com/R-vi369/epfo_clone/assets/108292786/874a18b8-2935-4e09-b410-6e81dc80f9ae
+
 
 
 
