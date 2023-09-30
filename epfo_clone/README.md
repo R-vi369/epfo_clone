@@ -11,7 +11,7 @@ This repository contains a clone of the Employees' Provident Fund Organization (
 
 ## Demo
 
-You can access a live demo of this EPFO Clone React App at [https://your-demo-url.com](https://your-demo-url.com). This demo showcases the main features and functionalities of the application.
+You can access a live demo of this EPFO Clone React App at ([https://your-demo-url.com](https://epfo.netlify.app/)). This demo showcases the main features and functionalities of the application.
 
 
 
@@ -24,7 +24,7 @@ To run this EPFO Clone React App locally, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/epfo-clone-react-app.git
+   git clone https://github.com/R-vi369/epfo_clone.git
    ```
 
 2. Navigate to the project directory:
